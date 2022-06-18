@@ -1,8 +1,11 @@
 void main() {
-  String name = "Bangladesh";
-  print(name.split(""));
+  String name = "Sagar";
   
-  for (int i=0; i<name.length; i++){
+  for(int i=0; i<name.length; i++){
     print(name[i]);
   }
+  
+  var nameList = name.split('');
+  
+  print(nameList);
 }
